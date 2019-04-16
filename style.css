@@ -1,0 +1,189 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    background: url(91E07A7767A64B2467BD7A0EC02BF95A.png);
+    background-size: cover;
+    min-height: 400px;
+    z-index: 1;
+}
+.container{
+    margin: 0px;
+    position: relative;
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    float: left;
+    position: absolute;
+    left: 41.5%;
+    top: 284px;
+    z-index: 2;
+}
+.profile img{
+    border-style:double;
+    border-color: rgb(104, 103, 103);
+    border-width: 10px;
+    width: 190px;
+    height: 190px;
+    opacity: 100;
+    border-radius: 50%;
+}
+
+
+.top{   
+    color: rgb(54, 53, 53);
+    margin-top:8.5%;
+    padding: auto auto;
+    text-align: center;
+    font-family: Kaiti;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: larger;
+}
+.top h1{
+    margin-bottom: 5px;
+}
+
+.subtop{
+    font-family: Geneva;
+    font-weight: 600;
+    font-style: italic ;
+    line-height: 52px;
+    font-size: 20px;
+}
+
+hr{
+    width: 60%;
+}
+
+h2{
+    text-align: center;
+    font-family: STXingkai;
+    font-weight: 400;
+    line-height: 0;
+    margin-top:60px;
+    color: rgb(38, 99, 148);
+    font-size: 25px;
+}
+
+span.line {
+    width: 50px;
+    height: 3px;
+    background: #7895d4;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.about-info{
+    margin-left:20%;
+    width: 80%;
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(2,365px);
+    grid-template-rows: 270px;
+    grid-column-gap:30px;
+    font-family: YouYuan;
+    font-weight: 900;
+    font-size: 20px;
+    color: #373838;
+}
+.about-info>div{
+    background-color: rgb(241, 241, 241)
+}
+
+ul.about-details li p span {
+    font-style: oblique;
+    font-weight: 700;
+    color: #3f4b52;
+}
+
+.about-hobbies ul.hoby{
+    line-height: 35px;
+    margin-left: 26%;
+}
+
+.about-hobbies ul.hoby p{
+    margin-bottom: 3%;
+    font-size: larger;  
+}
+
+.about-hobbies ul.hoby li{
+    margin-left: 30px;
+    font-style: oblique;
+}
+
+.experience{
+    width: 60%;
+    margin-left:20%;
+    height: 800px;
+}
+
+.exp-devide {
+    position: relative;
+    text-align: center;
+}
+
+span.devide-line {
+    width: 3px;
+    height: 400px;
+    position: absolute;
+    top: 25px;
+    display: initial;
+    background: #d4d4d4;
+}
+
+.exp-devide-grid-right {
+    width: 40%;
+    text-align: left;
+    position: absolute;
+    top: 7em;
+    left: 26.3em;
+}
+
+.exp-devide-grid-left {
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    top: 12em;
+    left: 2em;
+}
+
+.exp-devide-grid-rightb {
+    width: 40%;
+    text-align: left;
+    position: absolute;
+    top: 18em;
+    left: 26.3em;
+}
+
+
+.work {
+    margin-top: 55%;
+}
+
+.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5 {
+    color: #2b3b4b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.exp-devide-grid-right small, .exp-devide-grid-left small, .exp-devide-grid-rightb small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7f8a90;
+    padding: 0 0 10px 0;
+}
+
+.exp-devide-grid-right p, .exp-devide-grid-left p, .exp-devide-grid-rightb p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7f8a90;
+    line-height: 1.2em;
+}
+
